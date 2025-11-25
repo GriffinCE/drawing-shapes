@@ -1,3 +1,7 @@
+Debugging:
+
+My program did not compile when I forgot to put a semicolon at the end of a line and it gave me a error that said ';' expected. I looked at the line it said the error was on and fixed it by adding the missing semicolon.
+
 # Specification
 
 ## 📖 Learning Objectives
