@@ -9,8 +9,10 @@ public class Shapes {
         }
         
         // Task 2: Draw a regular shape many times
+        turtle.up();
         turtle.setPosition(200, 0);
-        for (int i = 0; i < 12; i++) {
+        turtle.down();
+        for (int i = 0; i < 14; i++) {
             for (int j = 0; j < n; j++) {
                 turtle.forward(50);
                 turtle.right(360 / n);
@@ -18,7 +20,20 @@ public class Shapes {
             turtle.right(50);
         }
         // Task 3: How many times does Turtle turn!
-        
+        turtle.up();
+        turtle.setPosition(0, -200);
+        turtle.down();
+        int sum = 0;
+        for (int i = 0; i < 14; i++) {
+            for (int j = 0; j < n; j++) {
+                turtle.forward(50);
+                turtle.right(360 / n);
+                sum++;
+            }
+            turtle.right(50);
+        }
+        System.out.print("Turtle has turned " + sum + " times!");
+
         
         // Extension 1:
         

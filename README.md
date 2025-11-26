@@ -2,6 +2,8 @@ Debugging:
 
 My program did not compile when I forgot to put a semicolon at the end of a line and it gave me a error that said ';' expected. I looked at the line it said the error was on and fixed it by adding the missing semicolon.
 
+My  program didn't do what I wanted it to do when the drawings were overlapping because I did not move the turtle far enough away from the previous drawing. I changed it so the coordinates were further away from each other so the drawing would not overlap anymore.
+
 # Specification
 
 ## 📖 Learning Objectives
